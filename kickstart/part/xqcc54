@@ -1,0 +1,2 @@
+part / --fstype="ext4" --size=4000 --label=root
+part /home --fstype="ext4" --size=800 --label=home

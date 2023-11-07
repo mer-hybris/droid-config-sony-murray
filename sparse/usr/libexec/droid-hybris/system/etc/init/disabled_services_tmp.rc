@@ -1,0 +1,2 @@
+service fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.sony_HYBRIS_DISABLED
+

@@ -1,0 +1,19 @@
+CPUCHECK_STRING="Qualcomm Technologies, Inc LAGOON"
+
+# Because of flash-partition checks, 1 needs to be defined
+# Others can go with partition numbers
+PART_1="boot_a"
+PART_32="boot_b"
+PART_59="dtbo_a"
+PART_60="dtbo_b"
+PART_69="vendor_boot_a"
+PART_70="vendor_boot_b"
+
+PART_REAL_1="sda31"
+PART_REAL_32="sda32"
+PART_REAL_59="sda59"
+PART_REAL_60="sda60"
+PART_REAL_69="sda69"
+PART_REAL_70="sda70"
+
+PART_I="1 32 59 60 69 70"
