@@ -2,7 +2,7 @@
 %define vendor sony
 %define vendor_pretty Sony
 
-#define provides_own_board_mapping 1
+%define provides_own_board_mapping 1
 %define out_of_image_files 1
 
 %define android_version_major 13

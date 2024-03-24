@@ -14,9 +14,6 @@ Requires: droid-hal-version-xqcc54
 # For devices with cellular modem. Those without one, please comment out:
 Requires: patterns-sailfish-cellular-apps
 
-# Early stages of porting benefit from these:
-Requires: patterns-sailfish-device-tools
-
 Requires: sailfish-content-graphics-z%{icon_res}
 
 # For multi-SIM devices
