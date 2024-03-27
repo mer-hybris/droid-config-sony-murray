@@ -1,4 +1,4 @@
-CPUCHECK_STRING="Qualcomm Technologies, Inc LAGOON"
+CPUCHECK_STRING="Sony Mobile Communications. PDX225(BLAIR v4)"
 
 # Because of flash-partition checks, 1 needs to be defined
 # Others can go with partition numbers
