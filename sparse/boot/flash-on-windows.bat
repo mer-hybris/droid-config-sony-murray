@@ -120,7 +120,7 @@ del %tmpflashfile% >NUL 2>NUL
 setlocal EnableDelayedExpansion
 
 :: Find the blob image. Make sure there's only one.
-for /r %%f in (*_v2b_murray.img) do (
+for /r %%f in (*_v3a_murray.img) do (
 if not defined blobfilename (
 REM Take only the filename and strip out the path which otherwise is there.
 REM This is to make sure that we do not face issues later with e.g. spaces in the path etc.
@@ -143,7 +143,7 @@ echo Please download it from
 echo %oemblobwebsite%
 echo(
 echo Ensure you download the supported version of the image found under:
-echo "Software binaries for AOSP Android 13.0 - Kernel 5.4 - Murray (v2b)"
+echo "Software binaries for AOSP Android 13.0 - Kernel 5.4 - Murray (v3a)"
 echo and unzip it into this directory.
 echo Note: information on which versions are supported is written in our Sailfish X
 echo installation instructions online https://jolla.com/sailfishxinstall
