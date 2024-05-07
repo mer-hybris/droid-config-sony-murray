@@ -7,6 +7,8 @@
 
 %define android_version_major 13
 
+Conflicts: appsupport-system < 11.0.0
+Conflicts: appsupport-system > 11.0.0
 Conflicts: appsupport-system-privileged
 
 # Device-specific ofono configuration
