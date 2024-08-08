@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# Initialize zram device
+NUM_ZRAM_DEV=1
+
+MEMORY_IN_KBYTES=" `cat /proc/meminfo | grep MemTotal | awk '{ print $2 }'`"
+
+# Set size to 13% of memory
+SIZE=$(( $MEMORY_IN_KBYTES * 1024 * 13 / 100 / NUM_ZRAM_DEV ))
+
+num=0
+while [ "$num" -lt "$NUM_ZRAM_DEV" ]; do
+        echo $SIZE > /sys/block/zram${num}/disksize
+        /sbin/mkswap /dev/zram${num}
+        num=$(($num+1))
+done
