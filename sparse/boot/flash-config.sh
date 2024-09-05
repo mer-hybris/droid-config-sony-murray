@@ -23,7 +23,7 @@ The supported Sony Vendor partition image wasn't found in the current directory.
 Please download it from
 https://developer.sony.com/develop/open-devices/downloads/software-binaries/
 Ensure you download the supported version of the image found under:
-\"Software binaries for AOSP Android 13.0 - Kernel 5.4 - Murray (v3a)\"
+\"Software binaries for AOSP Android 14.0 - Kernel 5.4 - Murray (v3a)\"
 and unzip it into this directory.
 Note: information on which versions are supported is written in our Sailfish X
 installation instructions online https://jolla.com/sailfishxinstall
