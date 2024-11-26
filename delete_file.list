@@ -16,4 +16,3 @@
 /etc/xtra_root_cert.pem
 /etc/xtwifi.conf
 /etc/ofono/binder.d/dual-sim.conf
-/etc/ofono/ril_subscription.d/dual-sim.conf
