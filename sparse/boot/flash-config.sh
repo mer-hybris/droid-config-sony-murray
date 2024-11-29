@@ -10,7 +10,7 @@ FLASH_OPS=(
 "flash vendor_boot_a vendor_boot.img"
 "flash vendor_boot_b vendor_boot.img"
 "flash userdata sailfish.img001"
-"flash_blob oem_a *_v3a_murray.img"
+"flash_blob oem_a *_murrat_v6a.img"
 )
 
 GETVAR_ERROR_secure="
@@ -23,7 +23,7 @@ The supported Sony Vendor partition image wasn't found in the current directory.
 Please download it from
 https://developer.sony.com/develop/open-devices/downloads/software-binaries/
 Ensure you download the supported version of the image found under:
-\"Software binaries for AOSP Android 14.0 - Kernel 5.4 - Murray (v3a)\"
+\"Software binaries for AOSP Android 14.0 - Kernel 5.4 - Murray (v6a)\"
 and unzip it into this directory.
 Note: information on which versions are supported is written in our Sailfish X
 installation instructions online https://jolla.com/sailfishxinstall
