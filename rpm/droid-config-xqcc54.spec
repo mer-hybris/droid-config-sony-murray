@@ -8,6 +8,9 @@
 
 %define pixel_ratio 1.75
 
+# Ignore requirements of included binaries
+%define __requires_exclude_from ^/opt/appsupport/vendor/lib.*/.*$
+
 %include droid-config-common.inc
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-pdx225.inc
