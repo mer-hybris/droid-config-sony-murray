@@ -10,7 +10,7 @@ FLASH_OPS=(
 "flash vendor_boot_a vendor_boot.img"
 "flash vendor_boot_b vendor_boot.img"
 "flash userdata sailfish.img001"
-"flash_blob oem_a *_murrat_v6a.img"
+"flash_blob oem_a *_murray_v6a.img"
 )
 
 GETVAR_ERROR_secure="
